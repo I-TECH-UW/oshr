@@ -14,7 +14,7 @@ RUN curl -L "https://github.com/jwilder/dockerize/releases/download/${DOCKERIZE_
     && tar -C /usr/local/bin -xzvf "/tmp/dockerize-linux-amd64-${DOCKERIZE_VERSION}.tar.gz"
 
 
-# Install OpenMRS
+# Install  OpenMRS
 ENV OPENMRS_HOME="/root/.OpenMRS"
 ENV OPENMRS_MODULES="${OPENMRS_HOME}/modules"
 ENV OPENMRS_PLATFORM_URL="https://sourceforge.net/projects/openmrs/files/releases/OpenMRS_Platform_1.12.0/openmrs.war/download"
