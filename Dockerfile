@@ -17,7 +17,7 @@ RUN curl -L "https://github.com/jwilder/dockerize/releases/download/${DOCKERIZE_
 # Install  OpenMRS
 ENV OPENMRS_HOME="/root/.OpenMRS"
 ENV OPENMRS_MODULES="${OPENMRS_HOME}/modules"
-ENV OPENMRS_PLATFORM_URL="https://sourceforge.net/projects/openmrs/files/releases/OpenMRS_Platform_1.12.0/openmrs.war/download"
+ENV OPENMRS_PLATFORM_URL="https://sourceforge.net/projects/openmrs/files/releases/OpenMRS_Platform_2.0.5/openmrs.war/download"
 ENV TEMP_MODULES /root/temp/modules
 
 RUN curl -L ${OPENMRS_PLATFORM_URL} \
