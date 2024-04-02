@@ -30,10 +30,10 @@ RUN curl -L ${OPENMRS_PLATFORM_URL} \
 ADD modules/webservices.rest-2.12.omod ${TEMP_MODULES}/webservices.rest-2.12.omod
 ADD modules/uiframework-omod-3.4.omod ${TEMP_MODULES}/uiframework-omod-3.4.omod
 
-ADD modules/shr-atna-1.0.1-SNAPSHOT.omod ${TEMP_MODULES}/shr-atna-1.0.1-SNAPSHOT.omod
-ADD modules/shr-contenthandler-3.0.1-SNAPSHOT.omod ${TEMP_MODULES}/shr-contenthandler-3.0.1-SNAPSHOT.omod
-ADD modules/xds-b-repository-1.1.1-SNAPSHOT.omod ${TEMP_MODULES}/xds-b-repository-1.1.1-SNAPSHOT.omod
-ADD modules/shr-cdahandler-1.0.1-SNAPSHOT.omod ${TEMP_MODULES}/shr-cdahandler-1.0.1-SNAPSHOT.omod
+ADD modules/shr-atna-1.1.0.omod ${TEMP_MODULES}/shr-atna-1.1.0.omod
+ADD modules/shr-contenthandler-3.1.0.omod ${TEMP_MODULES}/shr-contenthandler-3.1.0.omod
+ADD modules/xds-b-repository-1.1.2.omod ${TEMP_MODULES}/xds-b-repository-1.1.2.omod
+ADD modules/shr-cdahandler-1.1.0.omod ${TEMP_MODULES}/shr-cdahandler-1.1.0.omod
 ADD modules/shr-odd-0.5.1.omod ${TEMP_MODULES}/shr-odd-0.5.1.omod
 ADD modules/openhie-client-0.1-SNAPSHOT.omod ${TEMP_MODULES}/openhie-client-0.1-SNAPSHOT.omod
 ADD modules/exportccd-1.0.0-SNAPSHOT.omod ${TEMP_MODULES}/exportccd-1.0.0-SNAPSHOT.omod
